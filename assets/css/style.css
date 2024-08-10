@@ -3,7 +3,10 @@
 	margin:0;
 	box-sizing:border-box;
 }
-
+body{
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+}
 .hero-section{
 	/*background:url('../img/mobbg.jpg');*/
 	/*background-color:brown;*/
@@ -55,7 +58,8 @@
 	font-size:52px;
 	font-weight:bold;
 	color:#ffffff;
-	margin-bottom:60px
+	margin-bottom:60px;
+	text-transform:uppercase;
 }
 
 .info-C p{
@@ -259,5 +263,41 @@
 
 footer{
 	padding: 40px 0 35px;
+	background-color:#d7dedc;
+	
 }
 
+.footerinfosection p, .footerinfosection .social-icon{
+	display:inline-block;
+}
+
+.footerinfosection p,.footerinfosection p a{
+	color:#2e2e38;
+	font-weight:400px;
+	font-size:25px;
+}
+
+.footerinfosection p span{
+	margin:0 20px;
+	font-weight:bold;
+}
+
+.footerinfosection .social-icon a:first-child{
+	margin-left:20px;
+}
+
+.footerinfosection .social-icon a{
+	background-color:#375597;
+	color:#ffffff;
+	padding:8px;
+	height:30px;
+	width:30px;
+	margin-right:20px;
+}
+
+.footerinfosection .social-icon a:nth-child(2){
+	background-color:#d386a7;
+}
+.footerinfosection .social-icon a:nth-child(3){
+	background-color:#a6e9ea;
+}
